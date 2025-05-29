@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- AOS CSS -->
+<!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script src="https://kit.fontawesome.com/ee59ad904b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <nav class="navbar navbar-expand-md nav_bg fixed-top">
+  <a class="navbar-brand company-name-1" href="#home-cont">MFC</a>
+  <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">&#9776</span>
+  </button>
+  <div class="collapse navbar-collapse nav_menu_align" id="navbarNavAltMarkup">
+    <div class="navbar-nav nav_menu_cont">
+      <a class="nav-link active nav_items nav_menu_text" href="#home-cont" id="my-home">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link nav_items nav_menu_text" href="#menu-cont" id="my-menu">View Menu</a>
+      <a class="nav-link nav_items nav_menu_text" href="#cartId" id="mycart-id">My Cart</a>
+    
+      
+    </div>
+  </div>
+ <img src="https://res.cloudinary.com/dv8fruigd/image/upload/v1748354460/head-removebg-preview_jlsyap.png" class="ml-5 nav_img"/>
+</nav>
+<div id="home-cont" class="home-back d-flex flex-column justify-content-center">
+  <div class="container">
+     <div class="row">
+      <div class="col-12 col-md-6 text-center">
+             <img src="https://res.cloudinary.com/dv8fruigd/image/upload/v1748004634/chsk__1_-removebg-preview_adiguj.png" class="rotating chickImg" id="img1"/>
+          <img src="https://res.cloudinary.com/dv8fruigd/image/upload/v1747746686/kfc_leg_pieces-removebg-preview_gazwxa.png" id="img2" class="d-none vibrate legImg"/>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="welcome" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="100">
+            <h1>Welcome to <span class="company-name">MFC</span></h1>
+            <p style="color:white; font-style:italic; font-weight:500;">For the Love of Crispy, Juicy Chicken</p>
+            <a class="menu-button" href="#menu-cont">View Menu</a>
+        </div>
+        </div>
+     </div>
+  </div>
+</div>
+<div id="menu-cont" class="menu-items-cont" id="menu-id">
+  <div class="container">
+     <div class="row" id="row-id">
+      <div class="col-12">
+         <h1 class="category">SNACKS</h1>
+      </div>
+     </div>
+  </div>
+</div>
+<script>
+    AOS.init();
+</script>
+<script src="mfc.js" async></script>
+</body>
+</html>

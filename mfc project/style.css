@@ -1,0 +1,345 @@
+body{
+    background: linear-gradient(to right, #3a3a3a, #616161, #a1a1a1);
+    height:vh;
+   
+}
+.home-back{
+background: linear-gradient(to right, #3a3a3a, #616161, #a1a1a1);
+ height:100vh;
+ 
+}
+.nav_bg{
+background: linear-gradient(to right, #3a3a3a, #616161, #a1a1a1) !important;
+}
+.burger{
+  background-color:white !important;
+}
+.company-name{
+    color:maroon !important;
+    font-weight: bold;
+    font-family:"Roboto";
+    font-style: italic;
+}
+.nav_items{
+    color:white !important;
+    font-family: "Caveat sans-serif";
+    font-weight: bold !important;
+    text-decoration: none !important;
+    font-size:16px;
+    font-style:normal;
+
+}
+
+.company-name-1{
+    color:white !important;
+    font-weight: bold;
+    font-family:"Roboto";
+}
+.menu-button{
+    border-width:0px;
+    background-color:maroon;
+    color:white;
+    font-family:"Roboto";
+    font-weight: bold;
+    height:48px;
+    width:125px;
+    border-radius:8px;
+    text-decoration: none !important;
+    color:white !important;
+    padding:8px;
+    cursor:pointer;
+}
+.menu-button:hover{
+    border-width:0px;
+    background-color:khaki;
+    color:black !important;
+    font-family:"Roboto";
+    font-weight: bold;
+    height:48px;
+    width:125px;
+    border-radius:8px;
+    text-decoration: none !important;
+    
+    padding:8px;
+    cursor:pointer;
+}
+.menu-items-cont{
+background: linear-gradient(to right, #3a3a3a, #616161, #a1a1a1);
+height:vh;
+width:100%;
+padding:8px;
+padding-top:65px;
+}
+.img-cont{
+    
+    background-color:#f8e6e6;
+    border-top-left-radius:8px;
+    border-top-right-radius: 8px;
+
+}
+.cart-img-cont{
+    background-color:#f8e6e6;
+    border-top-left-radius:8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+    padding:5px;
+  
+}
+
+.cart-item-name{
+    font-family:"Roobto";
+    font-size:24px;
+    font-weight:bold;
+    color:black;
+}
+.item-cont{
+    border-top-left-radius:8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+   
+}
+.cart-button{
+     border-width:0px;
+    background-color:maroon;
+    color:white;
+    font-family:"Roboto";
+    font-weight: bold;
+    height:40px;
+    
+    border-radius:8px;
+    padding: 8px;
+}
+.cart-button:hover{
+     border-width:0px;
+    background-color:khaki;
+    color:black;
+    font-family:"Roboto";
+    font-weight: bold;
+    height:40px;
+    
+    border-radius:8px;
+    padding: 8px;
+}
+.cart-button-order{
+     border-width:0px;
+    background-color:maroon;
+    color:white;
+    font-family:"Roboto";
+    font-weight: bold;
+    height:55px;
+    width:125px;
+    border-radius:8px;
+    padding: 8px;
+}
+.cart-button-order:hover{
+     border-width:0px;
+    background-color:khaki;
+    color:black;
+    font-family:"Roboto";
+    font-weight: bold;
+    height:55px;
+    width:125px;
+    border-radius:8px;
+    padding: 8px;
+}
+.remove-cart-button{
+     border-width:0px;
+    background-color:green;
+    color:white;
+     padding:8px;
+    font-weight: bold;
+    height:45px;
+    
+    border-radius:8px;
+}
+.price-cont{
+    padding:8px;
+     text-align:center; 
+     background-color:white;
+     border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-bottom:15px;
+    width:100%;
+}
+.item-name{
+    color:black;
+    font-family:"Roboto";
+    font-size:18px;
+    
+}
+.item-price{
+    color:black;
+    font-family:"Roboto";
+    font-size:16px;
+    font-weight:bold;
+}
+.category{
+    font-size:26px;
+    font-family: "Roboto";
+    font-weight:bold;
+    margin-top:18px;
+    color:white;
+   
+}
+.category-cont{
+    position:sticky;
+    top:55px;
+    background-color:black;
+    padding:5px;
+}
+.cart-cont{
+  background: linear-gradient(to right, #3a3a3a, #616161, #a1a1a1);
+    height:100vh;
+    width:100%;
+    padding:8px;
+    padding-top:65px;
+    margin-bottom:10px;
+    
+    
+}
+.cart-item-cont{
+   border-radius:12px;
+   padding:8px;
+   margin-top:8px;
+   width:100%;
+   background-color:white;
+}
+.quantity{
+    background-color: rosybrown;
+    color:balck;
+    font-weight:bold;
+    padding:8px;
+    font-size:12px;
+    border-radius: 5px;
+    text-align: center;
+    margin:5px;
+}
+.qtext{
+    font-weight:bold;
+    font-family: "Roboto";
+    font-size:18px;
+    margin:5px;
+}
+.rotating{
+    animation-name: birdRotate;
+    animation-delay:0s;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-direction: linear forwards;
+    text-align: left;
+}
+@media (max-width:768px){
+  .cart-img{
+     width:25vw;
+     height:85px;
+}
+.cart-img-cont{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
+ .chickImg{
+     width:75vw;
+ }   
+ .legImg{
+    width:75vw;
+    
+ }
+ .welcome{
+  text-align:center !important;
+  margin-top:15px;
+}
+.nav_img{
+  display:none;
+}
+.cart-button{
+  margin-top:5px;
+}
+@keyframes birdRotate {
+  0% {
+    transform: translateX(-140px) rotate(0deg);
+  }
+  50% {
+    transform: translateX(150px) rotate(0deg);
+  }
+  100% {
+    transform: translateX(0px) rotate(-320deg);
+  }
+}
+@keyframes vibrate {
+  0%   { transform: translate(0); }
+  25%  { transform: translate(-2px, 2px); }
+  50%  { transform: translate(2px, -2px); }
+  75%  { transform: translate(-2px, -2px); }
+  100% { transform: translate(0); }
+}
+}
+@media (min-width:768px){
+.nav_menu_align{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.nav_menu_text{
+  color:black !important;
+  background-color:khaki;
+  border-radius:10px;
+  margin-left:5px;
+  
+}
+.nav_burger_icon{
+ display:none;
+}
+.nav_menu_text:hover{
+  color:white !important;
+  background-color:maroon;
+  border-radius:10px;
+  margin-left:5px;
+  
+}
+.nav_menu_cont{
+
+  background-color:white;
+  padding:5px;
+  border-radius:12px;
+}
+.cart-img{
+    width: 20vw;
+    
+}
+
+.nav_img{
+  width:62px; 
+  border-radius: 50%;
+  display:block;
+}
+ .welcome{
+  text-align:right;
+  margin-top:15px;
+}
+    @keyframes birdRotate {
+  0% {
+    transform: translateX(-250px) rotate(0deg);
+  }
+  50% {
+    transform: translateX(0px) rotate(0deg);
+  }
+  100% {
+    transform: translateX(0px) rotate(-300deg);
+  }
+}
+@keyframes vibrate {
+  0%   { transform: translate(0); }
+  25%  { transform: translate(-2px, 2px); }
+  50%  { transform: translate(2px, -2px); }
+  75%  { transform: translate(-2px, -2px); }
+  100% { transform: translate(0); }
+}
+}
+.vibrate {
+  animation-name: vibrate;
+  animation-duration:0.1s;
+  animation-iteration-count: 1;
+  animation-delay:0.1s;
+}
